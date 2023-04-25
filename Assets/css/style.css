@@ -1,0 +1,43 @@
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+}
+ 
+main {
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    max-width: 1200;
+    margin: 0 auto;
+    background-color: antiquewhite; 
+    color: teal;
+ }
+ 
+ header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightslategray;
+    height: 100px;
+ }
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+}
+a {
+    display:flex;
+    margin: 3px;
+    font-size: 20px;
+    border: solid 2px teal;
+    color: teal;
+    height: 30px
+}
+a:hover {
+    color:grey;
+    border: grey dashed 2px;
+}
