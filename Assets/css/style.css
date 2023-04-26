@@ -32,33 +32,29 @@ nav {
     display:flex;
     justify-content: flex-end;
 }
-a {
+nav a {
     display:flex;
     margin: 3px;
     font-size: 20px;
     border: solid 2px rgb(242, 255, 255);
-    color: rgb(242, 255, 255);;
+    color: rgb(242, 255, 255);
     height: 30px
 }
-a:hover {
+nav a:hover {
     color:grey;
     border: grey dashed 2px;
 }
-section{
-    display: flex;
-    height: 160px;
-    background-color: blue;
-}
-.about {
-    color: rgb(242, 255, 255);
+ 
+.works {
     display:flex;
-}
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+ }
+ .work {
+    display:inline-block
 
-.about img {
-    display:block;
-    margin-right:auto;
-    width:50%;
-}
-.work {
-    color:rgb(242, 255, 255);
-}
+ }
+ .featured {
+    width: 350px;
+ }
