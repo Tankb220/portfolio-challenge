@@ -25,6 +25,7 @@ main {
     background-size: cover;
     border-radius: 5px;
     height: 150px;
+    color:rgb(242, 255, 255)
  }
 
 nav {
@@ -45,6 +46,19 @@ a:hover {
 }
 section{
     display: flex;
-    height: 56px;
+    height: 160px;
     background-color: blue;
+}
+.about {
+    color: rgb(242, 255, 255);
+    display:flex;
+}
+
+.about img {
+    display:block;
+    margin-right:auto;
+    width:50%;
+}
+.work {
+    color:rgb(242, 255, 255);
 }
