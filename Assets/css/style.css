@@ -31,7 +31,7 @@ main {
 
 nav {
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -46,14 +46,34 @@ nav a:hover {
     color:grey;
     border: grey dashed 2px;
 }
- 
+
+.about {
+    display:flex;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+}
+
+.about p {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.about .img {
+    display:flex;
+    justify-content:flex-end;
+    width:45%
+}
+
 .works {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-between;
  }
+
  .work {
+    position: relative;
     display:inline-block;
     width: 50%;
     color: teal;
@@ -88,7 +108,7 @@ nav a:hover {
     background-image: url("https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681_960_720.jpg");
     background-size: cover;
     border-radius: 5px;
-    height: 150px;
+    height: 100px;
     color:rgb(242, 255, 255);
     padding:5px;
  }
@@ -96,3 +116,15 @@ nav a:hover {
  footer nav a:hover {
     color:orange;
     border: orange dashed 2px;
+
+@media  and (max-width: 576px) {
+    header{
+        width: 100%;
+    }
+    .work {
+        width:100%;
+    }
+    footer {
+        width:100%;
+    }
+}
