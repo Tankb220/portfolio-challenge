@@ -49,18 +49,21 @@ nav a:hover {
 
 .about {
     display:flex;
+    flex-direction: row;
+    margin-bottom:20px;
 }
 
 .about img {
-    max-width: 45%;
-    align-items: flex-start;
-    flex:0;
+    max-width: 280px;
+    max-height: 300px;
 }
 
 .about p {
-    flex:1;
-    padding: 10px;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 300px;
+    font-size: 20px;
+
 }
 
 .works {
@@ -85,6 +88,7 @@ nav a:hover {
  .img {
     width:100%;
     padding:10px;
+    filter:sepia(30%)
  }
 
  .caption{
@@ -117,6 +121,9 @@ nav a:hover {
 
 @media  and (max-width: 576px) {
     header{
+        width: 100%;
+    }
+    .about{
         width: 100%;
     }
     .work {
