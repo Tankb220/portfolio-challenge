@@ -10,9 +10,9 @@ body {
  
 main {
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     min-height: 100vh;
-    max-width: 1200;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: antiquewhite; 
     color: teal;
@@ -25,13 +25,15 @@ main {
     background-size: cover;
     border-radius: 5px;
     height: 150px;
-    color:rgb(242, 255, 255)
+    color:rgb(242, 255, 255);
+    padding:5px;
  }
 
 nav {
     display:flex;
     justify-content: flex-end;
 }
+
 nav a {
     display:flex;
     margin: 3px;
@@ -52,9 +54,34 @@ nav a:hover {
     justify-content: space-between;
  }
  .work {
-    display:inline-block
-
+    display:inline-block;
+    width: 50%;
+    color: teal;
  }
+
  .featured {
-    width: 350px;
+    width: 100%;
+    color: teal;
+ }
+
+ .img {
+    width:100%;
+    padding:10px;
+ }
+
+ .caption{
+    position:absolute;
+    margin:10px;
+    padding:7px;
+    background-color: rgb(242, 255, 255);
+    border: 1px solid teal;
+ }
+ div a:hover{
+    
+    border:3px dashed teal;
+ }
+
+ 
+ footer{
+    padding: 20px;
  }
