@@ -21,7 +21,7 @@ main {
  header {
     display: flex;
     justify-content: space-between;
-    background-image: url("https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681_960_720.jpg");
+    background-image: url(https://img.freepik.com/free-photo/sky_53876-47159.jpg?w=826&t=st=1682554898~exp=1682555498~hmac=a316ba94e469812174888dc41a93168f101e8320bab0fd0397e8144f6cd2001f);
     background-size: cover;
     border-radius: 5px;
     height: 150px;
@@ -71,17 +71,28 @@ nav a:hover {
 
  .caption{
     position:absolute;
-    margin:10px;
+    margin: 10px;
     padding:7px;
     background-color: rgb(242, 255, 255);
     border: 1px solid teal;
  }
+ 
  div a:hover{
-    
     border:3px dashed teal;
  }
-
  
  footer{
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681_960_720.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    height: 150px;
+    color:rgb(242, 255, 255);
+    padding:5px;
  }
+
+ footer nav a:hover {
+    color:orange;
+    border: orange dashed 2px;
