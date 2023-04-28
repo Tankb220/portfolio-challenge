@@ -117,12 +117,13 @@ nav a:hover {
  footer nav a:hover {
     color:orange;
     border: orange dashed 2px;
+ }
 
-@media  and (max-width: 576px) {
-    header{
+@media and (max-width: 576px) {
+    header {
         width: 100%;
     }
-    .about{
+    .about {
         width: 100%;
     }
     .work {
